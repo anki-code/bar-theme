@@ -29,7 +29,7 @@ zsh
 ```
 
 ## [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
-Instead of using this basic zsh-theme you can try powerful [Powerlevel10k](https://github.com/romkatv/powerlevel10k):
+Instead of using this basic zsh-theme you can try powerful and faster [Powerlevel10k](https://github.com/romkatv/powerlevel10k):
 * OR with the proof of concept config [p10k-bar.zsh](https://gist.github.com/romkatv/7f48d0deae7a3449f34a4870feaba0f5)
 * OR with more carefully `.zshrc` settings (recommend):
 
