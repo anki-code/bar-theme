@@ -2,7 +2,7 @@
 
 Features:
 
-* It looks not like Christmas tree. Most of OMZ themes look like 🎄 💈 Christmas garland and frustrate attention. But terminal is most for write commands and get output, not for color juggling 🖥 
+* It looks not like Christmas tree. Most of [OMZ themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes) look like 🎄 💈 Christmas garland and frustrate attention. But terminal is most for write commands and get output, not for color juggling 🖥 
 
 * It has three attention aspects by priority: first - command and path, second - output, third - pills/sections 👓 
 
