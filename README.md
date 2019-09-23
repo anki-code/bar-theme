@@ -29,9 +29,7 @@ zsh
 ```
 
 ## [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
-Instead of using this basic zsh-theme you can try powerful and faster [Powerlevel10k](https://github.com/romkatv/powerlevel10k):
-* OR with the proof of concept config [p10k-bar.zsh](https://gist.github.com/romkatv/7f48d0deae7a3449f34a4870feaba0f5)
-* OR with more carefully `.zshrc` settings (recommend):
+Instead of using this basic zsh-theme you can try powerful and faster [Powerlevel10k](https://github.com/romkatv/powerlevel10k) with `.zshrc` settings:
 
     ```
     POWERLEVEL9K_VISUAL_IDENTIFIER_EXPANSION=
@@ -48,5 +46,6 @@ Instead of using this basic zsh-theme you can try powerful and faster [Powerleve
     POWERLEVEL9K_TIME_FOREGROUND=244
     zle_highlight=( default:fg=green,bold )
     ```
+Also you can try the proof of concept config [p10k-bar.zsh](https://gist.github.com/romkatv/7f48d0deae7a3449f34a4870feaba0f5). It work but not recommended because it disable many `p10k` features.
 
 
