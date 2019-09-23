@@ -28,6 +28,25 @@ sed -i  's/^ZSH_THEME=/ZSH_THEME="bar"\n#ZSH_THEME=/g' ~/.zshrc
 zsh
 ```
 
-## See also
-* [Powerlevel10k](https://github.com/romkatv/powerlevel10k) config [p10k-bar.zsh](https://gist.github.com/romkatv/7f48d0deae7a3449f34a4870feaba0f5)
+## [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+Instead of using this basic zsh-theme you can try powerful [Powerlevel10k](https://github.com/romkatv/powerlevel10k):
+* OR with the proof of concept config [p10k-bar.zsh](https://gist.github.com/romkatv/7f48d0deae7a3449f34a4870feaba0f5)
+* OR with more carefully `.zshrc` settings (recommend):
+
+    ```
+    POWERLEVEL9K_VISUAL_IDENTIFIER_EXPANSION=
+    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user host dir newline prompt_char)
+    POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs command_execution_time background_jobs virtualenv anaconda pyenv nodenv nvm nodeenv rbenv rvm kubecontext terraform nordvpn ranger time newline)
+    POWERLEVEL9K_TIME_FORMAT='%D{%y-%m-%d %H:%M:%S%z}'
+    POWERLEVEL9K_BACKGROUND=234
+    POWERLEVEL9K_PROMPT_CHAR_BACKGROUND=
+    POWERLEVEL9K_MULTILINE_FIRST_PROMPT_GAP_BACKGROUND=234
+    POWERLEVEL9K_USER_FOREGROUND=244
+    POWERLEVEL9K_HOST_FOREGROUND=244
+    POWERLEVEL9K_ANACONDA_FOREGROUND=244
+    POWERLEVEL9K_VCS_FOREGROUND=244
+    POWERLEVEL9K_TIME_FOREGROUND=244
+    zle_highlight=( default:fg=green,bold )
+    ```
+
 
