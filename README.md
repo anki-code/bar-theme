@@ -27,3 +27,7 @@ ln -s ~/.oh-my-zsh/custom/themes/zsh-bar-theme/bar.zsh-theme ~/.oh-my-zsh/custom
 sed -i  's/^ZSH_THEME=/ZSH_THEME="bar"\n#ZSH_THEME=/g' ~/.zshrc
 zsh
 ```
+
+## See also
+* [Powerlevel10k](https://github.com/romkatv/powerlevel10k) config [p10k-bar.zsh](https://gist.github.com/romkatv/7f48d0deae7a3449f34a4870feaba0f5)
+
