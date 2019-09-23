@@ -20,7 +20,7 @@ Features:
 
 Screeshot from [Hyper](https://hyper.is) with [Fira Code](https://github.com/tonsky/FiraCode) or something like this.
 
-## Install
+## ~Install~ RECOMMENDATION: Use settings for Powerlevel10k (the fastest theme) as described below
 ```
 git clone https://github.com/anki-code/zsh-bar-theme ~/.oh-my-zsh/custom/themes/zsh-bar-theme
 ln -s ~/.oh-my-zsh/custom/themes/zsh-bar-theme/bar.zsh-theme ~/.oh-my-zsh/custom/themes/bar.zsh-theme
