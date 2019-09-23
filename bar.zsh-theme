@@ -44,7 +44,7 @@ bar () {
   [[ $ZSH_THEME_BAR_HOSTCOLOR == '' ]] && bhc=244 || bhc=$ZSH_THEME_BAR_HOSTCOLOR
 
   # bar
-  _1LEFT="%{$BG[234]%}%{$FG[$bhc]%}%n@%m%{$reset_color%}%{$BG[234]%} %{$FG[253]%}%~%{$reset_color%}"
+  _1LEFT="%{$BG[234]%}%{$FG[$bhc]%}%n %m%{$reset_color%}%{$BG[234]%} %{$FG[253]%}%~%{$reset_color%}"
   _1RIGHT="%{$BG[234]%}%{$FG[250]%}$_git_%{$BG[234]%}%{$FG[250]%}$_condaenv_%{$BG[234]%}%{$FG[250]%} %{$FG[244]%}`date --rfc-3339=sec`%{$reset_color%}"
   _1SPACES=`get_space $_1LEFT $_1RIGHT`
   print
