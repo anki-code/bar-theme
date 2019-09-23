@@ -17,3 +17,11 @@ Features:
 ![zsh bar theme](zsh-bar-theme.png)
 
 Screeshot from [Hyper](https://hyper.is) with [One Dark](https://www.npmjs.com/package/hyperterm-atom-dark) and [Fira Code](https://github.com/tonsky/FiraCode) or something like this.
+
+## Install
+```
+git clone https://github.com/anki-code/zsh-bar-theme ~/.oh-my-zsh/custom/themes/zsh-bar-theme
+ln -s ~/.oh-my-zsh/custom/themes/zsh-bar-theme/bar.zsh-theme ~/.oh-my-zsh/custom/themes/bar.zsh-theme
+sed -i  's/^ZSH_THEME=/ZSH_THEME="bar"\n#ZSH_THEME=/g' ~/.zshrc
+<restart zsh>
+```
