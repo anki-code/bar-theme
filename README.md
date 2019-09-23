@@ -14,3 +14,6 @@ Features:
 
 ## Example
 
+![zsh bar theme](zsh-bar-theme.png)
+
+Screeshot from [Hyper](https://hyper.is) with [One Dark](https://www.npmjs.com/package/hyperterm-atom-dark) and [Fira Code](https://github.com/tonsky/FiraCode) or something like this.
