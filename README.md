@@ -12,6 +12,8 @@ Features:
 
 * The pills/sections placed to right but not in RPROMPT and it allows you to secure copy the command and output without environmental disclosure 🔒 
 
+* The pills/sections can have additional background or color accent if you need 💊 
+
 ## Example
 
 ![zsh bar theme](zsh-bar-theme.png)
