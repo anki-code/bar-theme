@@ -28,10 +28,9 @@ sed -i  's/^ZSH_THEME=/ZSH_THEME="bar"\n#ZSH_THEME=/g' ~/.zshrc
 zsh
 ```
 
-## [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+## [Powerlevel10k](https://github.com/romkatv/powerlevel10k) — the fastest and customizable theme in the world
 Instead of using this basic zsh-theme you can try powerful and faster [Powerlevel10k](https://github.com/romkatv/powerlevel10k) with `.zshrc` settings:
 
-    ```
     POWERLEVEL9K_VISUAL_IDENTIFIER_EXPANSION=
     POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user host dir newline prompt_char)
     POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs command_execution_time background_jobs virtualenv anaconda pyenv nodenv nvm nodeenv rbenv rvm kubecontext terraform nordvpn ranger time newline)
@@ -45,7 +44,7 @@ Instead of using this basic zsh-theme you can try powerful and faster [Powerleve
     POWERLEVEL9K_VCS_FOREGROUND=244
     POWERLEVEL9K_TIME_FOREGROUND=244
     zle_highlight=( default:fg=green,bold )
-    ```
+
 Also you can try the proof of concept config [p10k-bar.zsh](https://gist.github.com/romkatv/7f48d0deae7a3449f34a4870feaba0f5). It work but not recommended because it disable many `p10k` features.
 
 
