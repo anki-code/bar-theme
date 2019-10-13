@@ -14,13 +14,13 @@ Features:
 
 * The pills/sections can have additional background or color accent if you need 💊 
 
-## Example
+## Appearance
 
 ![zsh bar theme](zsh-bar-theme-example.png)
 
 Screeshot from [Hyper](https://hyper.is) with [Fira Code](https://github.com/tonsky/FiraCode) or something like this.
 
-## Oh-my-zsh installation
+## Oh-my-zsh
 ```
 git clone https://github.com/anki-code/zsh-bar-theme ~/.oh-my-zsh/custom/themes/zsh-bar-theme
 ln -s ~/.oh-my-zsh/custom/themes/zsh-bar-theme/bar.zsh-theme ~/.oh-my-zsh/custom/themes/bar.zsh-theme
@@ -28,7 +28,7 @@ sed -i  's/^ZSH_THEME=/ZSH_THEME="bar"\n#ZSH_THEME=/g' ~/.zshrc
 zsh
 ```
 
-## [Powerlevel10k](https://github.com/romkatv/powerlevel10k) installation
+## [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 1. `.zshrc` settings:
 
     POWERLEVEL9K_VISUAL_IDENTIFIER_EXPANSION=
