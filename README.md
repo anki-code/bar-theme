@@ -20,7 +20,7 @@ Features:
 
 Screeshot from [Hyper](https://hyper.is) with [Fira Code](https://github.com/tonsky/FiraCode) or something like this.
 
-## Oh-my-zsh
+## [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
 ```
 git clone https://github.com/anki-code/zsh-bar-theme ~/.oh-my-zsh/custom/themes/zsh-bar-theme
 ln -s ~/.oh-my-zsh/custom/themes/zsh-bar-theme/bar.zsh-theme ~/.oh-my-zsh/custom/themes/bar.zsh-theme
